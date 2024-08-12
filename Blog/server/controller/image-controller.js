@@ -1,10 +1,9 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const username = process.env.DB_USERNAME;
-const password = process.env.DB_PASSWORD;
 
-const url = `mongodb+srv://${username}:${password}@cluster0.bxqk91j.mongodb.net/Blog_App_${username}`;
+
+const url = "http://localhost:8000";
 
 
 let gfs, gridfsBucket;
